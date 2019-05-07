@@ -2,8 +2,9 @@
 做的关于去噪项目的一个总结 (最近接触，疏漏之处还望指出)
 
 近年来关于去噪方面，不少人已经做过不错的归纳，
-下面是北大Yang同学的一个State-of-the-art：
-[Denoising](https://github.com/flyywh/Image-Denoising-State-of-the-art)
+下面是几个归纳的State-of-the-art：
+[Yang:Denoising1](https://github.com/flyywh/Image-Denoising-State-of-the-art)
+[Prof.Wen:Denoising2](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
 
 ---
 
