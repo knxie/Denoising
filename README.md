@@ -6,5 +6,7 @@ Reference :  [NTIRE2019](http://openaccess.thecvf.com/content_CVPRW_2019/papers/
 [SIDD](https://github.com/AbdoKamel/simple-camera-pipeline) dataset with **320** noisy images in single-precision floating
 
 
+![Netstructure](https://github.com/knxie/Denoising/blob/master/image/%E6%8D%95%E8%8E%B7.PNG)
 
+Note that in this structure it also exploits the [CBAM](http://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf) [CODE](https://github.com/luuuyi/CBAM.PyTorch)
 
