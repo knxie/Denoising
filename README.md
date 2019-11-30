@@ -33,7 +33,7 @@
 
 + 优化角度：
    最近看了几篇PnP 和 RED 之类的文章。它们好处在于可以用一个denoiser作为先验，反复迭代取得更好的效果，可与深度模型结合，效果还是很不错的。
-   比较有意思，继续研究
+   **比较有意思，继续研究**
 
 + 低秩 (Low Rank):
    拿以前弄过Robust-PCA的经验来看，基本上是和核范数之类的优化相关，这玩意儿数学上比较好看，
@@ -45,10 +45,10 @@
    + Universal Denoising Networks： 这玩意其实不能算是经典的CNN(至少我觉得)，相当于每层是一个类似于BM3D这样
 的块，然后贪心法训练整体，有点boosting的味道，训练比较慢
 
-   + Recurrent Network： 还没细看过，RNN？似乎不是很有效，之前看过在Video上的，~~目前做的人比较少~~。优酷之前办了一个超分辨比赛，公布了大量的超分辨视频数据集[youku-resolution]（https://tianchi.aliyun.com/dataset/dataDetail?datald=39568）
+   + Recurrent Network： 还没细看过，RNN？似乎不是很有效，之前看过在Video上的，~~目前做的人比较少~~。优酷之前办了一个超分辨比赛，公布了大量的超分辨视频数据集[youku-resolution](https://tianchi.aliyun.com/dataset/dataDetail?datald=39568),目前视频的评估指标用PSNR和VMAF。
 
    + 带GAN的训练网络：这种的基本上都有几个subNet，GAN似乎起到的主要是数据增强的作用，即模糊学出噪声分布，扩大数据集
-以后可以尝试这方面，~~感觉比较靠谱~~。 用gan增强数据集比较靠谱，生成图片感觉不好。
+以后可以尝试这方面，~~感觉比较靠谱~~。 用gan增强数据集再训练去噪能力比较靠谱，而用gan去生成图片细节对于去噪任务来说不好。
 
    + RDN， GRDN， GRDN+CBAM
    RDN残差稠密网络，GRDN grouped-RDN，加上CBAM后PSNR高个0.0xdB (这个见仁见智，好处是添加很容易)
