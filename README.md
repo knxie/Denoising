@@ -45,7 +45,7 @@
    + Universal Denoising Networks： 这玩意其实不能算是经典的CNN(至少我觉得)，相当于每层是一个类似于BM3D这样
 的块，然后贪心法训练整体，有点boosting的味道，训练比较慢
 
-   + Recurrent Network： 还没细看过，RNN？似乎不是很有效，之前看过在Video上的，目前做的人比较少
+   + Recurrent Network： 还没细看过，RNN？似乎不是很有效，之前看过在Video上的，~~目前做的人比较少~~。优酷之前办了一个超分辨比赛，公布了大量的超分辨视频数据集[youku-resolution]（https://tianchi.aliyun.com/dataset/dataDetail?datald=39568）
 
    + 带GAN的训练网络：这种的基本上都有几个subNet，GAN似乎起到的主要是数据增强的作用，即模糊学出噪声分布，扩大数据集
 以后可以尝试这方面，~~感觉比较靠谱~~。 用gan增强数据集比较靠谱，生成图片感觉不好。
